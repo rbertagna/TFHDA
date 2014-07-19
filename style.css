@@ -1,0 +1,33 @@
+
+.text_and_pics {
+  background-color: #66C2FF;
+  text-align: center;
+  width: 700px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info {
+  display: inline;
+  font-size: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border: double;
+}
+
+body {
+  background-image: url('tread_HD.jpg');
+}
+
+p {
+  text-align: justify;
+  padding: 8px;
+}
