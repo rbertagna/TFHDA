@@ -1,7 +1,15 @@
 
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
 h1 {
   font-size: 76px;
-  padding-top: 20px
+  padding-top: 0px
 }
 
 h3 {
@@ -37,26 +45,18 @@ body div.body {
 }
 
 body div.body div.julie span.contact {
-  display: inline-block;
-  border: solid;
-  border-color: black;
-  border-width: 5px;
+  display: inline-block; 
   padding: 8px;
+  padding-top: 0px;
 }
 
 body div.body div.Jay-Z span.contact {
   display: inline-block;
-  border: solid;
-  border-color: black;
-  border-width: 5px;
   padding: 8px;
 }
 
 body div.body div.Michaelangelo span.contact {
   display: inline-block;
-  border: solid;
-  border-color: black;
-  border-width: 5px;
   padding: 8px;
 }
 
@@ -90,3 +90,47 @@ body div.body div.Michaelangelo span span.contact_right {
   float: right;
 }
 
+body div.body div.table ul span {
+  display: table;
+  text-align: center;
+  width: 660px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  background-color: #66C2FF;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#move {
+  position: relative;
+  left: -40px;
+}
+
+
+#home_nav {
+  display: table-cell;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+#news_nav {
+  display: table-cell;
+  border-top-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: black;
+  float: center;
+}
+
+#contact_nav {
+  display: table-cell;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+}

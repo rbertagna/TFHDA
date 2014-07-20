@@ -1,6 +1,10 @@
 
+body {
+  background-image: url('tread_HD.jpg');
+}
 
-.text_and_pics {
+
+.body {
   background-color: #66C2FF;
   text-align: center;
   width: 700px;
@@ -8,12 +12,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-#info {
-  display: inline;
-  font-size: 20px;
-}
-
 
 a:visited {
   color: blue;
@@ -23,36 +21,14 @@ a:hover {
   color: red;
 }
 
-
 .pics {
   width: 500px;
   height: auto;
   border: double;
 }
 
-body {
-  background-image: url('tread_HD.jpg');
-}
 
-p {
-  text-align: justify;
-  padding: 20px;
-  text-indent: 30px
-}
-
-#firstp {
-  padding-top: 0px;
-}
-
-h2 {
-  text-decoration: underline;
-}
-
-body div.tabs span#top {
-  display: inline;
-}
-
-body div.text_and_pics div.table ul span {
+body div.body div.table ul span {
   display: table;
   text-align: center;
   width: 660px;
@@ -95,4 +71,11 @@ body div.text_and_pics div.table ul span {
   border: solid;
   border-width: 3px;
   border-color: black;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+  text-indent: 30px;
+  font-size: 19px;
 }
